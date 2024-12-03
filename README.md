@@ -15,34 +15,10 @@ Tech Stack
 •	MIDI Processing: pretty_midi, mido
 •	Visualization: Matplotlib, Seaborn
 ________________________________________
-Installation
-1.	Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/music-to-tones.git
-cd music-to-tones
-2.	Set up a virtual environment:
-bash
-Copy code
-python -m venv env
-source env/bin/activate   # On Windows: env\Scripts\activate
-3.	Install the dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-________________________________________
-Usage
-1.	Place the audio files in the input_audio/ directory.
-2.	Run the transcription script:
-bash
-Copy code
-python transcribe.py --input input_audio/yourfile.wav --output output_midi/
-3.	The transcribed MIDI file will be saved in the output_midi/ directory.
-________________________________________
 Directory Structure
 bash
 Copy code
-music-to-tones/
+auromatic_music_transcription/
 ├── data/                   # Dataset for training and testing
 ├── input_audio/            # Directory for input audio files
 ├── output_midi/            # Directory for output MIDI files
